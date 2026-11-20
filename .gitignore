@@ -1,0 +1,69 @@
+# === 依赖 / 构建产物 ===
+node_modules/
+.pnp
+.pnp.js
+.pnp.cjs
+
+# === 构建输出 ===
+dist/
+build/
+out/
+.output/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+*.tsbuildinfo
+
+# === 环境变量（敏感信息，禁止提交） ===
+.env
+.env.*
+!.env.example
+*.local
+
+# === 日志 ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === 运行时数据（本项目本地数据目录） ===
+data/*
+
+# === 缓存 ===
+.cache/
+.temp/
+.tmp/
+.eslintcache
+.stylelintcache
+.npm/
+.yarn/
+
+# === 编辑器 / IDE ===
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# === 操作系统 ===
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === 测试与覆盖率 ===
+coverage/
+.nyc_output/
+*.lcov
+
+# === 其他 ===
+*.pid
+*.seed
+*.tgz
